@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "homework-5"
+version = "0.1.0"
+description = ""
+authors = ["Denys Kotsiuba"]
+readme = "README.md"
+packages = [{include = "homework_5"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiohttp = "^3.8.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
